@@ -1,0 +1,470 @@
+*{
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+body{
+
+    overflow-x: hidden;
+ 
+  
+}
+.fc{
+    display: flex;
+    flex-direction: column;
+}
+.fr{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.wrapper{
+    margin: auto;
+    width: 100%;
+
+     margin: auto;
+    border-radius: 2rem;        
+    min-height: 88vh;
+    background-color: white;
+    
+}
+
+#sidebar{
+    padding: 1rem;
+    width: 20%;
+    /* min-height: 30rem; */
+    /* background-color:#F3F4F6; */
+    border-radius: 2rem 0rem 0rem 2rem;
+    border-right: 1px solid  #DCDFE8;
+}
+
+#contentbar{
+    background-color: #F3F4F6;
+    width: 80%;
+    border-radius: 0rem 2rem 2rem 0rem;
+    min-height: 30rem;
+    /* background-color: pink; */
+}
+
+#logo-div{
+    width:100%;
+     
+    /* background-color: aqua; */
+
+}
+
+#img{
+    width: 3rem;
+    height: 2.8rem;
+    background-color: blue;
+    border-radius: 0.8rem;
+}
+
+#inter{
+    
+    padding-top: 0.6rem;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    padding-left: 1.0rem;
+}
+
+#finearts{
+    padding: 1.3rem;
+    align-items: center;
+    margin-top: 1rem;
+    width: 14rem;
+    min-height: 4rem;
+    background-color: #F3F4F6;
+    border-radius: 1.2rem;
+}
+
+#fineartscontent{
+    margin-left: 1.3rem;
+    width:80%;
+    margin: auto;
+
+    /* background-color: aqua; */
+}
+
+#para1{
+    font-size: 0.8rem;
+    font-family:system-ui;
+}
+
+#workspace{
+    color: gray;
+    margin-top: 0.3rem;
+    font-size: 0.8rem;
+    font-family:system-ui;
+}
+
+#dropdown{
+    margin-left: 1.5rem;
+}
+
+.links{
+align-items: center;
+margin-left: 0.5rem;
+padding: 0rem 0.1rem  0rem 0.1rem;
+    margin-top: 0.1rem;
+    width: 15rem;
+ 
+    min-height: 1rem;
+    /* background-color: aqua; */
+}
+
+.icons{
+    width: 2rem;
+    min-height: 2rem;
+    /* background-color: gray; */
+    margin-top: 0.7rem;
+}
+
+.para2{
+    font-size:0.8rem;
+    font-family:system-ui;
+    color: gray;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.para3{
+    padding: 1.3rem;
+    font-size:0.7rem;
+    font-family:system-ui;
+    color: gray;
+}
+button{
+    background-color: #0150D7;
+    color: white;
+    border: none;
+    font-family: system-ui;
+    font-size: 0.8rem;
+    padding-left: 2rem;
+    font-weight: bold;
+}
+
+#button{
+    border-radius: 3rem;
+    margin-top: 12rem;
+    width: 14rem;
+    min-height: 2.5rem;
+    background-color: #0150D7;
+    padding: 0.6rem;
+    
+}
+#plus{
+    padding-left: 0.5rem;
+}
+
+#header{
+    width:100%;
+    border-radius: 0rem 2rem 0rem 0rem;
+    min-height: 4rem;
+    background-color:#F3F4F6;
+  
+}
+#parent-div{
+    width: 90%;
+    margin: auto;
+    /* background-color: black; */
+
+}
+#content-1{
+    min-width: 100%;
+    padding: 2rem 0;
+    min-height: 6rem;
+    background-color:#F3F4F6;
+
+}
+
+#navicons{
+ justify-content: flex-end;
+margin-top: 1rem;
+}
+
+.icons-header{
+    padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+  
+}
+
+.icons-card{
+    padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+    color: gray;
+}
+
+
+#hellodaniel{
+    font-family: system-ui;
+    font-size: 3rem;
+}
+.card-content1{
+    padding-top: 0.9rem;
+     font-weight: bold;
+    font-family: sans-serif;
+    font-size: 1.4rem;
+}
+.card-para-1{
+    padding-top: 0.6rem;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+#content-middle-div{
+    width: 85rem;
+    min-height: 50rem;
+    background-color: whitesmoke;
+   
+    
+
+}
+#main-div{
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    padding: 0.2rem;
+
+}
+.cards{
+    padding:1rem ;
+    border-radius: 0.6rem;
+    width: 30%;
+    
+    background-color: white;
+}
+
+.content-left-div{
+    width: 4rem;
+    min-height: 50rem;
+    background-color:#F3F4F6 ;
+
+}
+
+#content-below-hellodaniel{
+    padding-top: 1rem;
+    color: gray;
+    padding-bottom:0.3rem;
+}
+.cards-left-icons{
+    justify-content: flex-end;
+    width: 100%;
+    min-height: 1rem;
+    /* background-color: aquamarine; */
+
+}
+.parent1-div{
+    justify-content: flex-end;
+
+}
+.card-text1{
+    padding-left: 0.4rem;
+   
+}
+
+.parent2-div{
+   
+    color: gray;
+    justify-content: flex-start;
+}
+
+.parent3-div2{
+    width: 18rem;
+    min-height: 2rem;
+    /* background-color: aqua; */
+
+}
+
+.card-text2{
+margin-top: 0.5rem;
+padding-right: 0.4rem;
+color: gray;
+}
+
+.p1{
+    justify-items: flex-start;
+}
+
+.p2{
+    justify-items: flex-end;
+}
+
+.p2 p{
+    padding-top: 0.5rem;
+    padding-left: 8rem;
+}
+
+
+@media screen and  (min-width:768px) and (max-width:1024px){
+
+
+    .wrapper {
+        width: 100%;
+        margin: auto;
+    }
+    .cards{
+        width: 50%;
+        margin-left: 1rem;
+    }
+
+    #contentbar{
+        width: 80%;
+    }
+
+    #button{
+        border-radius: 2rem;
+        width: 10rem;
+        padding: 0rem;
+    }
+    button{
+      font-size: 0.7rem;
+      padding-left: 1rem;
+      margin-top: 0.8rem;
+    }
+
+    #finearts{
+        width: 10rem;
+        justify-content: center;
+        border-radius: 13px;
+    }
+    #dropdown{
+        margin-left: 1rem;
+    }
+    #header{
+        width: 93%;
+    }
+
+}
+
+@media only  screen  and  (min-width:550px) and (max-width:768px){
+
+    #sidebar{
+        width: 30%;
+    }
+    #button{
+        border-radius: 2rem;
+        width: 10rem;
+     
+    }
+  
+    #finearts{
+        width: 10rem;
+        justify-content: center;
+        border-radius: 13px;
+    }
+    #contentbar{
+        width: 70%;
+    }
+    .cards{
+        width: 100%;
+    }
+    
+}
+@media only  screen  and  (min-width:425px) and (max-width:549px){
+    .wrapper {
+       
+        width: 148%;
+        
+    }
+#contentbar{
+        width: 70%;
+    }
+    #sidebar{
+        width: 30%;
+    }
+    #finearts{
+        width: 10rem;
+
+        justify-content: center;
+        border-radius: 13px;
+    }
+
+    #button{
+        border-radius: 2rem;
+        width: 10rem;
+     
+    }
+    button{
+        padding-left: 1rem;
+        font-size: 0.6rem;
+    }
+    #img {
+        width: 2rem;
+        height: 1.8rem;
+       
+    }
+    #inter {
+        padding-top: 0.5rem;
+        font-size: 1rem;
+       
+    }
+    .cards{
+        width: 100%;
+    }
+    .p2 p {
+      
+        padding-left: 18rem;
+    }
+
+    .parent3-div2 {
+        width: 27rem;
+       
+    }
+}
+
+@media only  screen  and  (min-width:374px) and (max-width:425px){
+
+    #sidebar{
+        width: 40%;
+    }
+    #contentbar{
+        width: 77%;
+    } 
+    #img {
+        width: 2rem;
+        height: 1.8rem;
+       
+    }
+    
+    #inter {
+        padding-top: 0.5rem;
+        font-size: 1rem;
+       
+    }
+    #finearts{
+        width: 8rem;
+
+        justify-content: center;
+        border-radius: 13px;
+    }
+    #button{
+        border-radius: 2rem;
+        width: 8rem;
+     
+    }
+    button{
+        padding-left: 1rem;
+        font-size: 0.6rem;
+    }
+    #finearts span{
+        font-size: 0.8rem;
+    }
+     #fineartscontent {
+
+        margin-left: 0.8rem;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
